@@ -1,0 +1,8 @@
+model_name: "ElasticNet-Tutorial"
+model_class: "UserModel"
+model_code: "model.py"
+input_example: "./input_example"
+input_example_type: "csv"
+requirements: "requirements.txt"
+model_args:
+    model_path: "./model.pkl"
